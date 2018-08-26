@@ -55,8 +55,7 @@ Face++ /v3 [faceplusplus.com](http://faceplusplus.com) API wrapper for Node.js
     var parameters = {
         return_attributes: 'ethnicity,beauty,eyegaze',
         image_base64: fs.readFileSync('./image.jpg').toString('base64')
-        }
-    };
+        };
     facepp.post('/detect', parameters, function(err, res) {
         console.log(res);
     });
@@ -73,8 +72,7 @@ Face++ /v3 [faceplusplus.com](http://faceplusplus.com) API wrapper for Node.js
     var parameters = {
         image_base64_1: fs.readFileSync('./image1.jpg').toString('base64'),
         image_base64_2: fs.readFileSync('./image2.jpg').toString('base64'),
-        }
-    };
+        };
     facepp.post('/compare', parameters, function(err, res) {
         console.log(res);
     });
