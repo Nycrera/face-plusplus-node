@@ -1,6 +1,6 @@
 {
   "name": "face-plusplus-node",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Face++ v3 API wrapper for Node.JS",
   "main": "index.js",
   "repository": {
