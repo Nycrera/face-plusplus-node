@@ -46,7 +46,7 @@ Face++ /v3 [faceplusplus.com](http://faceplusplus.com) API wrapper for Node.js
 
 ### Face Detection request (pass an image from the local file system using base64 encoding)
 ```js
-    var facepp = require('face-plus-plus'),
+    var facepp = require('face-plusplus-node'),
         fs = require('fs');
 
     facepp.setApiKey('API_KEY');
@@ -63,7 +63,7 @@ Face++ /v3 [faceplusplus.com](http://faceplusplus.com) API wrapper for Node.js
 
 ### Face Comparison request (pass 2 images from the local file system using base64 encoding)
 ```js
-    var facepp = require('face-plus-plus'),
+    var facepp = require('face-plusplus-node'),
         fs = require('fs');
 
     facepp.setApiKey('API_KEY');
