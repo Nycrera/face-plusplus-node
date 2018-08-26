@@ -1,0 +1,25 @@
+{
+  "name": "face-plusplus-node",
+  "version": "0.0.3",
+  "description": "Face++ v3 API wrapper for Node.JS",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nycrera/face-plusplus-node.git"
+  },
+  "keywords": [
+    "face++",
+    "faceplusplus",
+	"face detection",
+	"face compare"
+  ],
+  "author": "Alperen Yurdakul",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nycrera/face-plusplus-node/issues"
+  },
+  "homepage": "https://github.com/Nycrera/face-plusplus-node#readme",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}
